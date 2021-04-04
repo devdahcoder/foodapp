@@ -1,0 +1,107 @@
+.home-page-dish-container {
+
+    .home-page-dish-header {
+        width: 100%;
+
+        .home-page-header-display {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.5em 0;
+
+            .home-page-header-text {
+                font-size: 1.2rem;
+            }
+
+            .home-page-header-select {
+
+                .drop-down {
+                    color: #ffffff;
+                    // font-size: 13px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0.13px;
+                    outline: none;
+                    // min-width: 100px;
+                    width: 130px;
+                    transition: all 500ms ease-in-out;
+                    user-select: none;
+                    position: relative;
+                    
+
+                    .default-option {
+                        cursor: pointer;
+                        border-radius: 8px;
+                        border: 1px solid #393C49;
+                        background: #2D303E;
+                        // background: #151423;
+                        // box-shadow: 6px 6px 12px #121120;
+                        // box-shadow: inset 0px 0px 3px #202124;
+                        // box-shadow: -5px -5px 12px #232239;
+                        list-style: none;
+                        transition: linear 2s;
+
+                        &:active {
+                            transition: linear 2s;
+                            svg {
+                                transition: linear 2s;
+                                transform: rotate(180deg);
+                                
+                            }
+                        }
+
+                        li {
+                            padding: 10px;
+
+                            .display-option {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                
+                            }
+                        }
+                    }
+
+                    .main-options {
+
+                        position: absolute;
+                        cursor: pointer;
+                        border-radius: 8px;
+                        border: 1px solid #393C49;
+                        background: #2D303E;
+                        // box-shadow: 6px 6px 12px #121120;
+                        // box-shadow: inset 0px 0px 3px #202124;
+                        // box-shadow: -5px -5px 12px #232239;
+                        list-style: none;
+                        top: 43px;
+                        width: 100%;
+
+                        animation: scale 600ms ease-in-out forwards;
+
+
+                        @keyframes scale {
+                            0% {
+                                opacity: 0;
+                                transform: scale(0);
+                            }
+                    
+                            80% {
+                                transform: scale(1.07);
+                                // transform: scale(1.1);
+                            }
+                    
+                            100% {
+                                opacity: 1;
+                                transform: scale(1);
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+

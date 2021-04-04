@@ -1,0 +1,59 @@
+.dish-item-container {
+  text-align: center;
+  width: 100%;
+  background: #1F1D2B;
+  border-radius: 16px;
+  position: relative;
+}
+
+.dish-item-container .dish-item-display {
+  display: flex;
+  flex-direction: column;
+  padding: 2.3em 2.4em 2em 2.4em;
+}
+
+.dish-item-container .dish-item-display .dish-item-image-container {
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dish-item-container .dish-item-display .dish-item-image-container img {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dish-item-container .dish-item-display .dish-item-list-details {
+  padding-top: 6em;
+}
+
+.dish-item-container .dish-item-display .dish-item-list-details .dish-list-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.dish-item-container .dish-item-display .dish-item-list-details .dish-list-item-price {
+  padding: 0.9em 0;
+  font-size: 15px;
+}
+
+.dish-item-container .dish-item-display .dish-item-list-details .dish-list-item-availability {
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #ABBBC2;
+}
+/*# sourceMappingURL=dishitem.css.map */

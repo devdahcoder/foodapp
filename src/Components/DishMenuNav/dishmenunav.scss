@@ -1,0 +1,47 @@
+.dish-menu-container {
+    width: 100%;
+    padding-top: 1em;
+    border-bottom: 1px solid #393C49;
+
+
+    .dish-menu-nav {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 1em 0;
+
+        .dish-menu-ul{
+            list-style: none;
+            position: relative;
+
+            #marker {
+                position: absolute;
+                height: 5px;
+                width: 0;
+                bottom: -8px;
+                transform: 0.3s;
+                background: white;
+                border-radius: 4px;
+                left: 0;
+            }
+
+            .dish-menu-li {
+                display: inline-block;
+                margin-right: 2em;
+
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    font-size: 15px;
+                    // border: 1px solid red;
+                    padding: 0.5em 0;
+                    width: 100%;
+
+                    &:hover {
+                        color: #EA7C69;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.drop-down-item-li {
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+
+    &:hover {
+        background-color: grey;
+        // border-radius: 8px;
+    }
+}

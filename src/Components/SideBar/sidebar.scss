@@ -10,7 +10,11 @@
     padding: 0.5em 0;
 
     .side-bar-logo-container {
-        padding: 0.7em 1em;
+        // padding: 0.7em 1em;
+        // border: 1px solid red;
+        // width: 100%;
+        // margin-bottom: 1em;
+        padding: 1em 0;
     }
 
     .side-bar-nav {
@@ -28,17 +32,18 @@
             height: 100%;
 
             .side-bar-li {
-                // border: 1px solid green;
                 width: 100%;
+                // border: 1px solid green;
+                padding: 0.4em 0;
 
                 a {
-                    // border: 1px solid red;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     text-decoration: none;
                     width: 100%;
                     padding: 1.2em;
+                    // border: 1px solid red;
 
                     &:hover {
                         background: #EA7C69;

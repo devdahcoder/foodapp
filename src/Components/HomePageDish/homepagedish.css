@@ -1,0 +1,81 @@
+.home-page-dish-container .home-page-dish-header {
+  width: 100%;
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em 0;
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-text {
+  font-size: 1.2rem;
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down {
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.13px;
+  outline: none;
+  width: 130px;
+  transition: all 500ms ease-in-out;
+  user-select: none;
+  position: relative;
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option {
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #393C49;
+  background: #2D303E;
+  list-style: none;
+  transition: linear 2s;
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option:active {
+  transition: linear 2s;
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option:active svg {
+  transition: linear 2s;
+  transform: rotate(180deg);
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option li {
+  padding: 10px;
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option li .display-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .main-options {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #393C49;
+  background: #2D303E;
+  list-style: none;
+  top: 43px;
+  width: 100%;
+  animation: scale 600ms ease-in-out forwards;
+}
+
+@keyframes scale {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.07);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/*# sourceMappingURL=homepagedish.css.map */

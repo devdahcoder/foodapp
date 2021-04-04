@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACpB,OAAO,EAAE,KAAK;CAQjB;;AATD,AAEI,uBAFmB,CAEnB,qBAAqB,CAAC;EAClB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,YAAY,EAAE,GAAG;EACjB,eAAe,EAAE,KAAK;EACtB,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "dishdisplay.scss"
+    ],
+    "names": [],
+    "file": "dishdisplay.css"
+}
