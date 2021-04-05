@@ -44,7 +44,7 @@
 }
 
 .home-page-header-container header .home-page-header-input-container .home-page-input-icon button {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.5em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,6 +65,6 @@
   color: #ABBBC2;
   font-size: 14px;
   font-weight: 400;
-  padding: 0px 0.3em 0 0.5em;
+  padding: 0px 0.9em 0 0.5em;
 }
 /*# sourceMappingURL=homepageheader.css.map */

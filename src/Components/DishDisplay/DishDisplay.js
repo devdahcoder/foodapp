@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./dishdisplay.css";
 
 //imported packages
@@ -18,7 +18,7 @@ import Spicy from "../../Assets/images/spicy.png";
 import DishItem from "../DishItem/DishItem";
 
 
-const dishs = [
+const dishes = [
     {
         image: Sea,
         name: "Spicy seasoned seafood noodles",
@@ -131,17 +131,21 @@ const dishs = [
 ]
 
 
-const DishDisplay = () => {
-
-
-    // const [dishs, setDishs] = useState(initialState)
-
+const DishDisplay = ({inputValue}) => {
 
     return (
         <div className="dish-display-container">
             <div className="dish-display-display">
                 {
-                    dishs.map((dish) => (<DishItem key={uuid()} dish={dish} />))
+                    dishes.filter((dish) => {
+                        if (inputValue === "") {
+                            return dish
+                        }
+                        else if (dish.name.toLowerCase().includes(inputValue.toLowerCase())) {
+                            return dish
+                        }
+                        return dish
+                    }).map((dish) => (<DishItem key={uuid()} dish={dish} />))
                 }
             </div>
         </div>

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 * {
@@ -9,26 +8,7 @@
   font: inherit;
   vertical-align: baseline;
   scroll-behavior: smooth;
-  /* font-family: 'Fira Code', monospace;  */
-  /*// font-family: 'Amiko', sans-serif;
-  // font-family: 'Chivo', sans-serif;
-  // font-family: 'Gabriela', serif;
-  // font-family: 'Hind Siliguri', sans-serif;
-  // font-family: 'Maitree', serif;
-  // font-family: 'Merriweather Sans', sans-serif;
-  // font-family: 'Noticia Text', serif;
-  // font-family: 'Noto Sans', sans-serif;
-  // font-family: 'Nunito Sans', sans-serif;
-  // font-family: 'Quicksand', sans-serif;
-  // font-family: 'Roboto', sans-serif;
-  // font-family: 'Sarala', sans-serif;
-  // font-family: 'Signika', sans-serif;
-  // font-family: 'Work Sans', sans-serif;
-  // font-family: 'Yantramanav', sans-serif; */
-  /* // font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
-  /* font-family: 'Inter', sans-serif; */
-  
-   font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
 
 }
 
@@ -39,10 +19,8 @@ body {
   height: 100%;
   width: 100%;
   font-weight: 300;
-  /* background: #1b1b1b; */
   background: #242424;
   color: #ffffff;
-  /* font-family: 'Inter', sans-serif; */
 }
 
 body::-webkit-scrollbar {

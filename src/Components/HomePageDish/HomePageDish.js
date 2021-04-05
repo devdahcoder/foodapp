@@ -23,7 +23,7 @@ const initialState = [
     },
 ]
 
-const HomePageDish = () => {
+const HomePageDish = ({inputValue}) => {
 
 
     const [dropdowns, setDropDowns] = useState(initialState)
@@ -70,7 +70,7 @@ const HomePageDish = () => {
 
 
             <div className="home-page-dish-display">
-                <DishDisplay />
+                <DishDisplay inputValue={inputValue} />
             </div>
         </div>
     )
