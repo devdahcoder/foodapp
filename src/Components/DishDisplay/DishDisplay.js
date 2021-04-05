@@ -133,6 +133,8 @@ const dishes = [
 
 const DishDisplay = ({inputValue}) => {
 
+
+
     return (
         <div className="dish-display-container">
             <div className="dish-display-display">
@@ -141,10 +143,8 @@ const DishDisplay = ({inputValue}) => {
                         if (inputValue === "") {
                             return dish
                         }
-                        else if (dish.name.toLowerCase().includes(inputValue.toLowerCase())) {
-                            return dish
-                        }
-                        return dish
+                        
+                        return dish.name.toLowerCase().includes(inputValue.toLowerCase())
                     }).map((dish) => (<DishItem key={uuid()} dish={dish} />))
                 }
             </div>

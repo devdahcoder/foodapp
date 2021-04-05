@@ -19,7 +19,7 @@
   line-height: 18px;
   letter-spacing: 0.13px;
   outline: none;
-  width: 130px;
+  width: 110px;
   transition: all 500ms ease-in-out;
   user-select: none;
   position: relative;
@@ -34,12 +34,28 @@
   transition: linear 2s;
 }
 
-.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option:active {
-  transition: linear 2s;
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option .display-option-icon-container {
+  transition: linear 600ms;
 }
 
-.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option:active svg {
-  transition: linear 2s;
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option .display-option-icon-container button {
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: 0px solid #000;
+  padding: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: linear 600ms;
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option .display-option-icon-container .transform-icon {
+  transition: linear 600ms;
+}
+
+.home-page-dish-container .home-page-dish-header .home-page-header-display .home-page-header-select .drop-down .default-option .display-option-icon-container .transform-icon svg {
+  transition: linear 600ms;
   transform: rotate(180deg);
 }
 
@@ -59,8 +75,9 @@
   border-radius: 8px;
   border: 1px solid #393C49;
   background: #2D303E;
+  z-index: 1;
   list-style: none;
-  top: 43px;
+  top: 53px;
   width: 100%;
   animation: scale 600ms ease-in-out forwards;
 }

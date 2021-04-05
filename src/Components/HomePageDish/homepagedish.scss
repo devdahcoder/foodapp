@@ -17,14 +17,14 @@
 
                 .drop-down {
                     color: #ffffff;
-                    // font-size: 13px;
                     font-weight: 400;
                     line-height: 18px;
                     letter-spacing: 0.13px;
                     outline: none;
-                    // min-width: 100px;
-                    width: 130px;
+                    width: 110px;
                     transition: all 500ms ease-in-out;
+                    -webkit-user-select: none;
+                    -ms-user-select: none;
                     user-select: none;
                     position: relative;
                     
@@ -41,12 +41,29 @@
                         list-style: none;
                         transition: linear 2s;
 
-                        &:active {
-                            transition: linear 2s;
-                            svg {
-                                transition: linear 2s;
-                                transform: rotate(180deg);
-                                
+                        
+
+                        .display-option-icon-container {
+                            transition: linear 600ms;
+                            button {
+                                background: none;
+                                outline: none;
+                                cursor: pointer;
+                                border: 0px solid #000;
+                                padding: 0.3em;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                transition: linear 600ms;
+                            }
+
+                            .transform-icon {
+                                transition: linear 600ms;
+                                svg {
+                                    transition: linear 600ms;
+                                    transform: rotate(180deg);
+                                    
+                                }
                             }
                         }
 
@@ -64,17 +81,17 @@
                     }
 
                     .main-options {
-
                         position: absolute;
                         cursor: pointer;
                         border-radius: 8px;
                         border: 1px solid #393C49;
                         background: #2D303E;
+                        z-index: 1;
                         // box-shadow: 6px 6px 12px #121120;
                         // box-shadow: inset 0px 0px 3px #202124;
                         // box-shadow: -5px -5px 12px #232239;
                         list-style: none;
-                        top: 43px;
+                        top: 53px;
                         width: 100%;
 
                         animation: scale 600ms ease-in-out forwards;

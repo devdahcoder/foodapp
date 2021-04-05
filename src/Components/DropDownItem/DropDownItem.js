@@ -5,11 +5,11 @@ import "./dropdoenitem.css";
 const DropDownItem = ({dropdown}) => {
     return (
         <div>
-            {/* <li className="drop-down-item-li">
+            <li className="drop-down-item-li">
                 <div>
                     {dropdown.value}
                 </div>
-            </li> */}
+            </li>
         </div>
     )
 }
