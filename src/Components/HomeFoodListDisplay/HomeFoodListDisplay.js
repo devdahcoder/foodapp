@@ -1,7 +1,8 @@
 import React from 'react';
-import "./dishdisplay.css";
+import "./homefoodlistdisplay.css";
 
-//imported packages
+
+//imported libraries
 import {v4 as uuid} from "uuid";
 
 //imported icons
@@ -14,7 +15,7 @@ import Spicy from "../../Assets/images/spicy.png";
 
 
 //imported components
-import DishItem from "../DishItem/DishItem";
+import HomeFoodListItem from "../HomeFoodListItem/HomeFoodListItem";
 
 
 const dishes = [
@@ -130,23 +131,17 @@ const dishes = [
 ]
 
 
-const DishDisplay = ({inputValue}) => {
 
+
+
+const HomeFoodListDisplay = () => {
     return (
-        <div className="dish-display-container">
-            <div className="dish-display-display">
-                {
-                    dishes.filter((dish) => {
-                        if (inputValue === "") {
-                            return dish
-                        }
-
-                        return dish.name.toLowerCase().includes(inputValue.toLowerCase())
-                    }).map((dish) => (<DishItem key={uuid()} dish={dish} />))
-                }
-            </div>
+        <div className="home-food-list-item-container">
+            {
+                dishes.map((dish) => (<HomeFoodListItem key={uuid()} dish={dish} />))
+            }
         </div>
     )
 }
 
-export default DishDisplay
+export default HomeFoodListDisplay

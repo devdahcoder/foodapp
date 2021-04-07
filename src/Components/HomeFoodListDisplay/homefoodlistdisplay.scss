@@ -1,0 +1,25 @@
+.home-food-list-item-container {
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    overflow-y: scroll;
+    height: 500px;
+    padding-bottom: 18em;
+
+    &::-webkit-scrollbar {
+        width: 0.4em;
+        display: none;
+        transition: 1s linear;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #252836;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #1F1D2B;
+        border-radius: 100vh;
+        opacity: 0.1;
+    }
+}

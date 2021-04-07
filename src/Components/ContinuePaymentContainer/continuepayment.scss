@@ -1,0 +1,55 @@
+.main-food-list-continue-payment-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    background: #1F1D2B;
+    // background: grey;
+    z-index: 1;
+    // border-top: 1px solid yellow;
+    border-radius: 50px 50px 0 0;
+
+    .main-food-list-continue-payment-display {
+        display: flex;
+        flex-direction: column;
+
+
+        .main-food-list-discount-display {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.6em 0;
+
+            .main-food-discount {
+                font-size: 14px;
+                color: #ABBBC2;
+            }
+
+            .main-food-discount-price {
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+        }
+
+
+
+        .main-food-list-continue-payment-btn-container {
+            padding-top: 2em;
+
+            button {
+                width: 100%;
+                border: 0px solid #000;
+                background: #EA7C69;
+                box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+                border-radius: 8px;
+                color: #ffffff;
+                font-size: 1rem;
+                font-weight: 500;
+                height: 45px;
+                cursor: pointer;
+                outline: none;
+            }
+        }
+    }
+}

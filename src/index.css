@@ -19,7 +19,9 @@ body {
   height: 100%;
   width: 100%;
   font-weight: 300;
-  background: #242424;
+  /* background: #242424; */
+  background: #252836;
+
   color: #ffffff;
 }
 
