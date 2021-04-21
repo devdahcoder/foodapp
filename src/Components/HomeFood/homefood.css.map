@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACjB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,CAAC;EACZ,OAAO,EAAE,OAAO;EAChB,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,kBAAkB;CAOhC;;AAZD,AAQI,oBARgB,CAQhB,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACzB",
+    "sources": [
+        "homefood.scss"
+    ],
+    "names": [],
+    "file": "homefood.css"
+}

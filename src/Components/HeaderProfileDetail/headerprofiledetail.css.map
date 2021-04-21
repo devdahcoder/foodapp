@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gCAAgC,CAAC;EAC7B,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAgBzB;;AAlBD,AAII,gCAJ4B,CAI5B,8BAA8B,CAAC;EAC3B,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;CACnB;;AAPL,AASI,gCAT4B,CAS5B,8BAA8B,CAAC;EAC3B,OAAO,EAAE,OAAO;CACnB;;AAXL,AAaI,gCAb4B,CAa5B,sBAAsB,CAAC;EACnB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "headerprofiledetail.scss"
+    ],
+    "names": [],
+    "file": "headerprofiledetail.css"
+}

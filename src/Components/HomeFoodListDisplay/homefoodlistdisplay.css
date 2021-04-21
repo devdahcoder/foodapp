@@ -1,24 +1,5 @@
 .home-food-list-item-container {
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
-  height: 500px;
-  padding-bottom: 18em;
-}
-
-.home-food-list-item-container::-webkit-scrollbar {
-  width: 0.4em;
-  display: none;
-  transition: 1s linear;
-}
-
-.home-food-list-item-container::-webkit-scrollbar-track {
-  background: #252836;
-}
-
-.home-food-list-item-container::-webkit-scrollbar-thumb {
-  background: #1F1D2B;
-  border-radius: 100vh;
-  opacity: 0.1;
 }
 /*# sourceMappingURL=homefoodlistdisplay.css.map */

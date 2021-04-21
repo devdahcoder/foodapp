@@ -1,13 +1,7 @@
 .main-food-order-list-li-container {
-    padding: 1em 0;
+    padding: 0.7em 0;
     border-radius: 4px;
-
-    &:hover {
-        background: #1F1D2B;
-        box-shadow: 0px 8px 24px rgba(159, 164, 185, 0.4);
-        // box-shadow: 0px 8px 24px rgba(45, 48, 62, 0.4);
-        
-    }
+    // border: 1px solid yellow;
 
     .main-food-order-list-li {
         list-style: none;
@@ -75,8 +69,8 @@
 
 
                     .main-food-order-list-qty {
-                        width: 48px;
-                        height: 48px;
+                        width: 45px;
+                        height: 45px;
                         background: #2D303E;
                         border: 1px solid #393C49;
                         border-radius: 8px;
@@ -91,19 +85,16 @@
                 .main-food-order-list-detail-order-price {
                     display: flex;
                     margin-left: 1em;
-                    width: 48px;
-                    height: 48px;
+                    width: 45px;
+                    height: 45px;
                     justify-content: center;
                     align-items: center;
                 }
             }
 
             .main-food-order-middle-padding {
-                padding: 0.4em 0;
+                padding: 0.2em 0;
             }
-
-
-
 
             .main-food-order-list-order-note-btn-display {
                 display: flex;
@@ -117,7 +108,7 @@
                         background: #2D303E;
                         border: 1px solid #393C49;
                         border-radius: 8px;
-                        height: 48px;
+                        height: 45px;
                         width: 100%;
 
 
@@ -145,8 +136,8 @@
                         flex-direction: row;
                         align-items: center;
                         justify-content: center;
-                        width: 48px;
-                        height: 48px;
+                        width: 45px;
+                        height: 45px;
                         border: 1px solid #FF7CA3;
                         box-sizing: border-box;
                         border-radius: 8px;

@@ -1,0 +1,19 @@
+.home-page-header-profile-detail {
+    display: flex;
+    flex-direction: column;
+
+    .home-page-header-profile-name {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+
+    .home-page-header-text-padding {
+        padding: 0.2em 0;
+    }
+
+    .home-page-header-date {
+        font-size: 1rem;
+        color: #E0E6E9;
+        font-weight: 300;
+    }
+}

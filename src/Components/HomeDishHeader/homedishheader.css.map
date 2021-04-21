@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACnB,KAAK,EAAE,IAAI;CAcd;;AAfD,AAGI,sBAHkB,CAGlB,yBAAyB,CAAC;EACtB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,OAAO;CAOnB;;AAdL,AASQ,sBATc,CAGlB,yBAAyB,CAMrB,sBAAsB,CAAC;EACnB,SAAS,EAAE,MAAM;CACpB",
+    "sources": [
+        "homedishheader.scss"
+    ],
+    "names": [],
+    "file": "homedishheader.css"
+}

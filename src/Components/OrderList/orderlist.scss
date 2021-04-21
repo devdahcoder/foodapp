@@ -1,0 +1,78 @@
+.home-food-order-list-container {
+    background: #1F1D2B;
+    border-radius: 10px 0 0 10px;
+    padding: 1em;
+    // -webkit-box-align: stretch;
+    // align-items: stretch;
+    // border: 0 solid #000;
+    // box-sizing: border-box;
+    // display: flex;
+    // -webkit-box-orient: vertical;
+    // -webkit-box-direction: normal;
+    // flex-direction: column;
+    // flex-shrink: 0;
+    // margin: 0;
+    max-width: 24rem;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+
+
+
+
+
+    .home-food-order-list-display {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .home-food-order-list-container-list {
+            // border: 1px solid red;
+            height: 100%;
+            max-height: 340px;
+            overflow-y: scroll;
+            position: relative;
+
+            &:hover {
+                &::-webkit-scrollbar {
+                    transition: 1s linear;
+                    display: block;
+                    overflow: overlay
+
+                }
+            }
+
+
+            &::-webkit-scrollbar {
+                width: 0.5em;
+                border-radius: 100vh;
+                transition: 1s linear;
+                display: none;
+            }
+
+            &::-webkit-scrollbar-track {
+                background: #252836;
+                border-radius: 100vh;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background: grey;
+                border-radius: 100vh;
+                // opacity: 0.1;
+            }
+
+            .main-food-order-list-container {
+                .main-food-order-list-ul {
+                    list-style: none;
+                }
+            }
+            
+        }
+        
+        
+    }
+
+    
+}

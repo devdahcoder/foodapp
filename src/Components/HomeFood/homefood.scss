@@ -1,0 +1,13 @@
+.home-food-container {
+    width: 100%;
+    flex-grow: 1;
+    padding: 1em 2em;
+    height: 100%;
+    max-width: calc(100% - 24rem);
+
+
+    .home-food-display {
+        display: flex;
+        flex-direction: column;
+    }
+}

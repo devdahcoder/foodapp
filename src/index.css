@@ -28,9 +28,6 @@ body {
 body::-webkit-scrollbar {
   width: 0.4em;
   border-radius: 100vh;
-  overflow: overlay
-
-  
 }
 
 body::-webkit-scrollbar-track {
