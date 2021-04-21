@@ -21,17 +21,30 @@ body {
   font-weight: 300;
   /* background: #242424; */
   background: #252836;
-
   color: #ffffff;
+  overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
-  width: 0.5em;
+  width: 0.4em;
+  border-radius: 100vh;
+  overflow: overlay
+
+  
 }
 
 body::-webkit-scrollbar-track {
-  background: grey;
+  background: #252836;
+  border-radius: 100vh;
+  background: transparent;
+
 }
 body::-webkit-scrollbar-thumb {
-  background: green;
+  background: grey;
+  border-radius: 100vh;
+}
+
+
+#root {
+  height: 100%;
 }

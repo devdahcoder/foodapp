@@ -12,9 +12,12 @@ function App() {
   return (
     <div className="App">
       <SideBar />
-      <Switch>
-        <Route path="/" component={Home} exact />
-      </Switch>
+
+      <main className="food-app-main">
+        <Switch>
+          <Route path="/" component={Home} exact />
+        </Switch>
+      </main>
     </div>
   );
 }
