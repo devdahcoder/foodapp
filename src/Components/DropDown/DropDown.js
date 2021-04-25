@@ -20,7 +20,7 @@ const initialState = [
     },
 ]
 
-const DropDown = () => {
+const DropDown = ({paymentMeth}) => {
 
 
 
@@ -43,10 +43,10 @@ const DropDown = () => {
     return (
         <div>
             <div className="home-page-header-select">
-                <div className="drop-down">
+                <div style={{width: paymentMeth ? "100%" : ""}} className="drop-down">
                     <ul className="default-option">
-                        <li>
-                            <div className="display-option">
+                        <li style={{padding: paymentMeth ? "0.8em 1em" : ""}}>
+                            <div style={{justifyContent: paymentMeth ? "flex-start" : ""}} className="display-option">
 
                                 <div className="display-option-icon-container">
                                     <button onClick={displayDropDown} className={showDropDown ? "transform-icon" : ""}>
@@ -57,7 +57,7 @@ const DropDown = () => {
                                     
                                 </div>
 
-                                <p>Dine in</p>
+                                <p style={{marginLeft: paymentMeth ? "0.8em" : ""}}>Dine in</p>
 
                             </div>
                         </li>

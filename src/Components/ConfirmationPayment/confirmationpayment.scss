@@ -2,11 +2,30 @@
     position: fixed;
     top: 0;
     left: 0;
+    // right: 100px;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
     opacity: 1;
     z-index: 100;
+    animation: scale 600ms ease-in-out forwards;
+
+
+    @keyframes scale {
+        0% {
+            opacity: 0;
+            transform: scale(0);
+        }
+
+        80% {
+            transform: scale(1.07);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
 
     .confirmation-payment-display {
         width: 100%;
@@ -24,11 +43,288 @@
             padding: 1em;
             border-right: 1px solid #393C49;
             width: 100%;
+            position: relative;
+
+            .confirm-navigation-container {
+                position: absolute;
+                top: 5px;
+                left: 1em;
+                z-index: 1;
+
+                button {
+                    background: none;
+                    outline: none;
+                    border: 0px solid #000;
+                    cursor: pointer;
+                }
+            }
+
+            .confirm-header-container {
+                padding: 1em 0;
+                border-bottom: 1px solid #393C49;
+                display: flex;
+                // align-items: center;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .confirm-header-text-container {
+                    color: #ffffff;
+                    display: flex;
+                    flex-direction: column;
+
+                    .confirm-header-text-header {
+                        font-size: 1.7rem;
+                        font-weight: 500;
+                    }
+
+                    .confirm-header-text-padding {
+                        padding: 0.3em 0;
+                    }
+
+                    .confirm-header-text-sub-header {
+                        color: #ABBBC2;
+                    }
+
+                }
+
+                .confirm-header-add-container {
+                    button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: none;
+                        border: 0px solid #000;
+                        cursor: pointer;
+                        background: #EA7C69;
+                        border-radius: 8px;
+                        padding: 0.8em;
+                    }
+                }
+            }
+
+            
+
+            .main-food-order-list-container {
+                // border: 1px solid red;
+                height: 100%;
+                max-height: 430px;
+                overflow-y: scroll;
+                position: relative;
+
+                // &:hover {
+                //     &::-webkit-scrollbar {
+                //         transition: 1s linear;
+                //         display: block;
+                //         overflow: overlay
+
+                //     }
+                // }
+
+
+                &::-webkit-scrollbar {
+                    width: 0.5em;
+                    border-radius: 100vh;
+                    transition: 1s linear;
+                    // display: none;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: #252836;
+                    border-radius: 100vh;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: grey;
+                    border-radius: 100vh;
+                    // opacity: 0.1;
+                }
+                .main-food-order-list-ul {
+                    list-style: none;
+                }
+            }
+            
+        
         }
 
         .payment-container {
             padding: 1em;
             width: 100%;
+            position: relative;
+
+            .payment-method-header {
+                padding: 1em 0;
+                border-bottom: 1px solid #393C49;
+
+                .payment-method-header-text-container {
+                    color: #ffffff;
+                    display: flex;
+                    flex-direction: column;
+
+                    .payment-method-header-text-header {
+                        font-size: 1.7rem;
+                        font-weight: 500;
+                    }
+
+                    .payment-method-header-text-padding {
+                        padding: 0.3em 0;
+                    }
+
+                    .payment-method-header-text-sub-header {
+                        color: #ABBBC2;
+                    }
+
+                }
+            }
+
+            form {
+                .form-display {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 1em 0;
+                    height: 100%;
+
+                    .payment-method-form-container {
+                        .payment-method-form-container-header  {
+                            font-size: 1.2rem;
+                            font-weight: 500;
+                            padding-bottom: 0.5em;
+                        }
+
+                        .payment-method-form-display {
+                            display: flex;
+                            align-items: center;
+                            flex-wrap: wrap;
+
+                            .payment-method-select-btn-container {
+                                margin-right: 0.5em;
+                                button {
+                                    position: relative;
+                                    width: 95px;
+                                    padding: 0.6em 0;
+                                    cursor: pointer;
+                                    background: none;
+                                    color: #ffffff;
+                                    background: #252836;
+                                    border: 1px solid #ABBBC2;
+                                    box-sizing: border-box;
+                                    border-radius: 8px;
+                                    font-size: 0.8rem;
+
+
+                                    .payment-method-select-selected {
+                                        position: absolute;
+                                        top: 2px;
+                                        right: 5px;
+                                    }
+
+                                    .payment-method-select-icon-container {
+                                        padding-bottom: 0.5em;
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+
+                    .payment-method-form-input-container {
+                        display: flex;
+                        flex-direction: column;
+
+                        .payment-method-input-container {
+                            width: 100%;
+                            padding: 0.3em 0;
+                            // border: 1px solid red;
+                            label {
+                                width: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                line-height: 2;
+                                font-size: 0.9rem;
+                                font-weight: 300;
+
+                                input {
+                                    width: 100%;
+                                    background: #2D303E;
+                                    border: 1px solid #393C49;
+                                    box-sizing: border-box;
+                                    border-radius: 8px;
+                                    outline: none;
+                                    color: #ffffff;
+                                    font-size: 1.1rem;
+                                    line-height: 0%;
+                                    padding: 0.6em 1em;
+                                    font-weight: 300;
+                                }
+                            }
+                        }
+
+                        .payment-method-input-display {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            // flex-wrap: wrap;
+                            width: 100%;
+                            border-bottom: 1px solid #393C49;
+                            padding-bottom: 0.2em;
+                            
+
+                            .payment-method-input-padding {
+                                padding: 0em 0.3em;
+                            }
+                        }
+                        .payment-method-input-display-drop-down {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            // flex-wrap: wrap;
+                            width: 100%;
+                            
+
+                            .payment-method-input-padding {
+                                padding: 0em 0.3em;
+                            }
+                        }
+                    }
+
+                    .payment-method-confirm-btn-container {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row;
+                        margin-top: auto;
+                        position: absolute;
+                        width: 100%;
+                        bottom: 0;
+                        left: 0;
+                        padding: 0em 1em 1em 1em;
+
+                        .payment-method-confirm-btn {
+                            width: 100%;
+                            
+                            button {
+                                width: 100%;
+                                height: 48px;
+                                border: 1px solid #EA7C69;
+                                box-sizing: border-box;
+                                border-radius: 8px;
+                                outline: none;
+                                background: none;
+                                color: #EA7C69;
+
+                            }
+
+                            .payment-method-confirm-pay {
+                                background: #EA7C69;
+                                color: #ffffff;
+                                box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.4);
+                            }
+                        }
+
+                        .payment-method-confirm-btn-padding {
+                            padding: 0em 0.3em;
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -24,7 +24,7 @@ function App() {
         </main>
         
       </div>
-      {/* <ConfirmationPayment /> */}
+      <ConfirmationPayment />
     </>
   );
 }

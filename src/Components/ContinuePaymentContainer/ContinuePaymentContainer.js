@@ -2,9 +2,12 @@ import React from 'react';
 import "./continuepayment.css";
 
 
-const ContinuePaymentContainer = () => {
+const ContinuePaymentContainer = ({removeBtn}) => {
     return (
-        <div className="main-food-list-continue-payment-container">
+        <div style={{
+            maxHeight: removeBtn ? "90px" : "", 
+            }} 
+            className="main-food-list-continue-payment-container">
             <div className="main-food-list-continue-payment-display">
                 <div className="main-food-list-discount-display">
                     <div className="main-food-discount">
@@ -26,7 +29,12 @@ const ContinuePaymentContainer = () => {
                     </div>
                 </div>
 
-                <div className="main-food-list-continue-payment-btn-container">
+                <div 
+                style={{
+                    display: removeBtn ? "none" : "",
+                    }} 
+                    className="main-food-list-continue-payment-btn-container"
+                >
                     <button>
                         Continue to Payment
                     </button>

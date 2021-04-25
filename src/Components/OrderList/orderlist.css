@@ -23,17 +23,10 @@
   position: relative;
 }
 
-.home-food-order-list-container .home-food-order-list-display .home-food-order-list-container-list:hover::-webkit-scrollbar {
-  transition: 1s linear;
-  display: block;
-  overflow: overlay;
-}
-
 .home-food-order-list-container .home-food-order-list-display .home-food-order-list-container-list::-webkit-scrollbar {
   width: 0.5em;
   border-radius: 100vh;
   transition: 1s linear;
-  display: none;
 }
 
 .home-food-order-list-container .home-food-order-list-display .home-food-order-list-container-list::-webkit-scrollbar-track {

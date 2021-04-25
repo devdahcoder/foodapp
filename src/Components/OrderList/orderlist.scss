@@ -35,21 +35,21 @@
             overflow-y: scroll;
             position: relative;
 
-            &:hover {
-                &::-webkit-scrollbar {
-                    transition: 1s linear;
-                    display: block;
-                    overflow: overlay
+            // &:hover {
+            //     &::-webkit-scrollbar {
+            //         transition: 1s linear;
+            //         display: block;
+            //         overflow: overlay
 
-                }
-            }
+            //     }
+            // }
 
 
             &::-webkit-scrollbar {
                 width: 0.5em;
                 border-radius: 100vh;
                 transition: 1s linear;
-                display: none;
+                // display: none;
             }
 
             &::-webkit-scrollbar-track {
