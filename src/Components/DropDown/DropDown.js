@@ -26,7 +26,7 @@ const DropDown = ({paymentMeth}) => {
 
     const [showDropDown, setShowDropDown] = useState(false);
 
-    const [dropdown, setDropDown] = useState(initialState);
+    const [dropdown] = useState(initialState);
 
 
     const displayDropDown = () => {

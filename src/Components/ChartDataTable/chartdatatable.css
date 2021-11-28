@@ -1,0 +1,48 @@
+.chart-data-table-container {
+  background: #1F1D2B;
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+}
+
+.chart-data-table-container .chart-data-table-display {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chart-data-table-container .chart-data-table-display .chart-data-table-header-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ffffff;
+  padding: 1em;
+}
+
+.chart-data-table-container .chart-data-table-display .chart-data-table-header-container .chart-data-table-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.chart-data-table-container .chart-data-table-display .chart-data-table-header-container .chart-table-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chart-data-table-container .chart-data-table-display .chart-data-table-header-container .chart-table-header .chart-header {
+  align-items: flex-start;
+  flex-grow: 2;
+  border: 1px solid red;
+}
+
+.chart-data-table-container .chart-data-table-display .chart-data-table-header-container .chart-table-header .chart-header:nth-child(3) {
+  flex-grow: 1;
+}
+
+.chart-data-table-container .chart-data-table-display .chart-data-table-header-container .chart-table-header .chart-header:nth-child(4) {
+  flex-grow: 1;
+}
+/*# sourceMappingURL=chartdatatable.css.map */

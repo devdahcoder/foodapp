@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "dashboard.scss"
+        "charttable.scss"
     ],
     "names": [],
-    "file": "dashboard.css"
+    "file": "charttable.css"
 }

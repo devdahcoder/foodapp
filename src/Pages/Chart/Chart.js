@@ -4,6 +4,7 @@ import "./chart.css";
 
 //imported components
 import ChartDataNumber from "../../Components/ChartDataNumber/ChartDataNumber";
+import ChartDataTable from "../../Components/ChartDataTable/ChartDataTable"
 
 const Chart = () => {
     return (
@@ -28,6 +29,8 @@ const Chart = () => {
                     </div>
 
                     <ChartDataNumber />
+
+                    <ChartDataTable />
                 </div>
 
                 <div className="side-chart">
