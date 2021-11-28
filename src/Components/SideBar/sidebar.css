@@ -11,7 +11,6 @@
 }
 
 .side-bar-container .side-bar-logo-container {
-  border: 1px solid red;
   padding: 0.8em 0;
 }
 
@@ -32,7 +31,6 @@
 
 .side-bar-container .side-bar-nav .side-bar-ul .side-bar-li {
   width: 100%;
-  border: 1px solid green;
   padding: 0.4em 0;
 }
 

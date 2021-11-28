@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,4BAA4B,CAAC;EAKzB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,eAAe,EAAE,GAAG;EACpB,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "chartdatanumber.scss"
+    ],
+    "names": [],
+    "file": "chartdatanumber.css"
+}

@@ -1,0 +1,10 @@
+.chart-data-number-container {
+    // display: flex;
+    // flex-direction: row;
+    // align-items: center;
+    // justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2em;
+    margin: 1em 0;
+}

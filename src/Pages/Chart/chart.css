@@ -1,0 +1,62 @@
+.chart-page-container .chart-page-display {
+  align-items: stretch;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 0;
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.chart-page-container .chart-page-display .main-chart {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1em 2em;
+  height: 100%;
+  max-width: calc(100% - 27rem);
+}
+
+.chart-page-container .chart-page-display .main-chart .chart-header-container {
+  width: 100%;
+  border-bottom: 1px solid #393C49;
+  padding-bottom: 1em;
+}
+
+.chart-page-container .chart-page-display .main-chart .chart-header-container .chart-header-display {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-page-container .chart-page-display .main-chart .chart-header-container .chart-header-display .chart-header-text {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.chart-page-container .chart-page-display .main-chart .chart-header-container .chart-header-display .chart-header-text-padding {
+  padding: 0.2em 0;
+}
+
+.chart-page-container .chart-page-display .main-chart .chart-header-container .chart-header-display .chart-header-date {
+  font-size: 1rem;
+  color: #E0E6E9;
+  font-weight: 300;
+}
+
+.chart-page-container .chart-page-display .side-chart {
+  border: 1px solid red;
+  border-radius: 10px 0 0 10px;
+  padding: 1em;
+  max-width: 27rem;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+/*# sourceMappingURL=chart.css.map */

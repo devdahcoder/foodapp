@@ -1,0 +1,7 @@
+.chart-data-number-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2em;
+  margin: 1em 0;
+}
+/*# sourceMappingURL=chartdatanumber.css.map */
